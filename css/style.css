@@ -29,3 +29,13 @@ body {
 .banner{
     width: 100%;
 }
+.bio{
+    float: right;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 40px;
+}
