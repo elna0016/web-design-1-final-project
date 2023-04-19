@@ -4,19 +4,21 @@
   <meta charset="utf-8">
   <title></title>
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 </head>
 <body>
   <header>
     <ul class="menu">
       <li class="myname">Aynoor</li>
-      <li class="menuItem">About Me</li>
-      <li class="menuItem">Services</li>
-      <li class="menuItem">My Work</li>
-      <li class="menuItem">Contact Me</li>
+      <li class="menuItem"><a href="#about">About Me</a></li>
+      <li class="menuItem"><a href="#service">Services</a></li>
+      <li class="menuItem"><a href="#work">My Work</a></li>
+      <li class="menuItem"><a href="#contact">Contact Me</a></li>
     </ul>
   </header>
+  <main>
       <img class="banner" src="images/hero-banner-img.png" alt="">
-    <div class="container">
+    <div id="about" class="container">
         <div class="text">
           <h1>Hello and welcome to my bio!</h1>
           <h2>About Me.</h2>
@@ -26,7 +28,7 @@
         </div>
         <img class="bio" src="images/bio-pic.jpg" alt="">
       </div>
-      <div class="presentation">
+      <div id="service" class="presentation">
         <h1>What I can do for you...</h1>
       </div>
       <div class="grid-container">
@@ -49,7 +51,7 @@
           <button class="button">Learn more</button>
         </div>
       </div>
-      <div class="mywork">
+      <div id="work" class="mywork">
         <div class="myworktitle">
           <h1>My Work</h1>
           <p>I have already worked on a range of projects during my time in school. These projects have allowed me to further develop my skills and apply what I have learned in a real-world setting.</p>
@@ -79,7 +81,7 @@
           </div>
         </div>
       </div>
-      <div class="end">
+      <div id="contact" class="end">
         <div class="end-header">
           <h1>I craft brands, websites, and experiences with great attention to detail & determination to tell your story.</h1>
         </div>
@@ -92,6 +94,7 @@
           <img class="social" src="images/twitter.svg" alt="">
         </div>
       </div>
+    </main>
       <footer>
         Aynoor 2023
       </footer>
