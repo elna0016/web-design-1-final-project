@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-  }
+}
 .menu{
     background-color: black;
     color: white;
@@ -31,11 +31,48 @@ body {
 }
 .bio{
     float: right;
+    margin-top: 40px;
+    padding-left: 40px;
+    height: auto;
+    width: auto;
 }
 .container {
     display: flex;
     align-items: center;
 }
 .text{
+    padding-left: 40px;
     margin-left: 40px;
+    font-size: x-large;
 }
+.presentation{
+    text-align: center;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px;
+}
+.grid-box {
+    background-color: #ffffffbf;
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.button {
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
