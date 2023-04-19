@@ -106,3 +106,33 @@ body {
 .last{
     padding-left: 1px;
 }
+
+.desc {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .desc-header{
+    padding-top: 70px;
+    text-align: center;
+}
+.desc-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.desc-item {
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.italic{
+    font-style: italic;
+}
