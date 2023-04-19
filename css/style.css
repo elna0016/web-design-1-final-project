@@ -136,3 +136,27 @@ body {
 .italic{
     font-style: italic;
 }
+
+.end-header{
+    font-size: larger;
+    padding-top: 70px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.end-paragraph{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+.social{
+    padding: 10px;
+    height: 3%;
+    width: 3%;
+}
