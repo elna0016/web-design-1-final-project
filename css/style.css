@@ -76,3 +76,12 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .mywork{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .myworktitle{
+    width: 50%;
+    text-align: center;
+  }
