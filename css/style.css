@@ -2,7 +2,14 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-  }
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+.main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 .menu{
     background-color: black;
     color: white;
@@ -26,16 +33,160 @@ body {
 .myname{
     float: left;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .banner{
     width: 100%;
 }
 .bio{
     float: right;
+    margin-top: 40px;
+    padding-left: 40px;
+    height: auto;
+    width: auto;
 }
 .container {
     display: flex;
     align-items: center;
 }
 .text{
+    padding-left: 40px;
     margin-left: 40px;
+    font-size: larger;
 }
+.presentation{
+    text-align: center;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px;
+}
+.grid-box {
+    background-color: #ffffffbf;
+    height: 350px;
+    width: 25%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    position: relative;
+
+}
+.button {
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mywork{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .myworktitle{
+    width: 50%;
+    text-align: center;
+  }
+  
+  .portfolio{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row1{
+    display: flex;
+    align-items: center;
+  }
+  .row2{
+    display: flex;
+    justify-content: space-evenly;
+  }
+.first{
+    padding-right: 1px;
+}
+.last{
+    padding-left: 1px;
+}
+
+.desc {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+padding-bottom: 100px;
+  }
+  .desc-header{
+    padding-top: 70px;
+    text-align: center;
+}
+.desc-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.desc-item {
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.italic{
+    font-style: italic;
+}
+.end{
+    padding-bottom: 100px;
+}
+.end-header{
+    font-size: larger;
+    padding-top: 70px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.end-paragraph{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+.social{
+    padding: 10px;
+    height: 3%;
+    width: 3%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  
+footer h1 {
+    margin: 0;
+  }
+  
